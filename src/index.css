@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 @import url('./assets/normalize.css');
 
 html {
@@ -15,7 +16,8 @@ html {
 }
 
 body {
-    /* font-family: 'SuisseIntl', Arial, Helvetica, sans-serif; */
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-style: normal;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;

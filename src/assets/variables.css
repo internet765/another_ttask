@@ -1,12 +1,32 @@
 :root {
     /* Текст */
-    /* --font: 'Open Sans', sans-serif; */
-    /* --font_style: normal; */
-
+    --font: 'Poppins', Arial, Helvetica, sans-serif;
+    
     /* Цвет текста*/
-    /* --text_primary_accent:  */
+    --text_black: #000000;
+    --text_white: #FFFFFF;
+    --text_primery: #01070D;
+    --text_secondary: #1D92FF;
 
     /* Цвет бэкграунда страницы */
-
+    --bg-header: #002547;
+    --bg-main: #F5F5F5;
+    --bg-card_primary: linear-gradient(180deg, #1D92FF 0%, #002648 0.01%, #002547 100%);
+    --bg-card_secondary: #FFFFFF;
+    --bg-mailing: #002648;
+    --bg-footer: #070C11;
+    
     /* Цвет элементов */
+
+    --shadow-card: 0px 20px 100px rgba(0, 0, 0, 0.05);
+    --border-card: #1D92FF;
+
+    --bg-button_primary: #FFFFFF;
+    --bg-button_secondary: #1D92FF;
+    --bg-button_primary: #FFFFFF;
+    --bg-button_primary: #FFFFFF;
+
+    --border-button: #1D92FF1A;
+
+
 }
