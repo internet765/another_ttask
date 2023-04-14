@@ -1,7 +1,7 @@
 :root {
     /* Текст */
     --font: 'Poppins', Arial, Helvetica, sans-serif;
-    
+
     /* Цвет текста*/
     --text_black: #000000;
     --text_white: #FFFFFF;
@@ -11,22 +11,35 @@
     /* Цвет бэкграунда страницы */
     --bg-header: #002547;
     --bg-main: #F5F5F5;
-    --bg-card_primary: linear-gradient(180deg, #1D92FF 0%, #002648 0.01%, #002547 100%);
-    --bg-card_secondary: #FFFFFF;
-    --bg-mailing: #002648;
     --bg-footer: #070C11;
-    
+
     /* Цвет элементов */
 
-    --shadow-card: 0px 20px 100px rgba(0, 0, 0, 0.05);
-    --border-card: #1D92FF;
+    /* Кнопки */
+    --button-bg_primary: #FFFFFF;
+    --button-bg_secondary: #1D92FF;
+  
+    --button-border_primary: #FFFFFF1A;
+    --button-border_secondary: #1D92FF1A;
 
-    --bg-button_primary: #FFFFFF;
-    --bg-button_secondary: #1D92FF;
-    --bg-button_primary: #FFFFFF;
-    --bg-button_primary: #FFFFFF;
+    --button-border-radius_primary: 3px;
+    --button-border-radius_secondary: 4px;
 
-    --border-button: #1D92FF1A;
+    /* Сссылка */
+    --link_primery: #1D92FFA6;
 
+    /* Аккордион */
+    --accordion-bg: #FFFFFF;
+    --accordion-border: #01070D1A;
+    --accordion-border-radius: 5px;
 
+    /* Карточки */
+    --card-bg_primary: linear-gradient(180deg, #1D92FF 0%, #002648 0.01%, #002547 100%);
+    --card-bg_secondary: #FFFFFF;
+
+    --card-shadow: 0px 20px 100px rgba(0, 0, 0, 0.05);
+    --card-border: #1D92FF;
+
+    /* Рассылка */
+    --mailing-bg: #002648;
 }
