@@ -2,17 +2,19 @@ import './index.css';
 import WOW from 'wow.js';
 
 // бургер меню
+const menu = document.querySelector('.header__menu');
+const burger = document.querySelector('.burger');
 
 window.addEventListener('resize', () => {
   if (window.innerWidth >= 1024) {
-    document.querySelector('.header__menu').classList.remove('active');
-    document.querySelector('.burger').classList.remove('active');
+    menu.classList.remove('active');
+    burger.classList.remove('active');
   }
 });
 
-document.querySelector('.burger').addEventListener('click', () => {
-  document.querySelector('.header__menu').classList.toggle('active');
-  document.querySelector('.burger').classList.toggle('active');
+burger.addEventListener('click', () => {
+  menu.classList.toggle('active');
+  burger.classList.toggle('active');
 });
 
 //wow init
