@@ -1,0 +1,7 @@
+.partners {}
+
+.partners__wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 71px;
+}

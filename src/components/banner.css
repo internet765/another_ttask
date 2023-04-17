@@ -1,0 +1,157 @@
+.banner {
+	display: flex;
+	position: relative;
+}
+
+.banner__left-side {
+	width: min(604px, 100%);
+	margin: 110px 0 0;
+}
+
+.banner__right-side {
+	position: absolute;
+	right: -205px;
+}
+
+.banner__subtitle {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 29px;
+	text-transform: uppercase;
+	color: var(--text_thirdly);
+	margin-bottom: 10px;
+}
+
+.banner__title {
+	font-weight: 800;
+	font-size: 55px;
+	line-height: 71px;
+	color: var(--text_white);
+	margin: 0;
+	margin-bottom: 45px;
+	width: 100%;
+	max-width: 604px;
+}
+
+.banner__text {
+	margin-bottom: 45px;
+	width: min(100%, 558px);
+}
+
+.banner__buttons {
+	display: flex;
+	gap: 20px;
+}
+
+.banner__button {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 27px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.banner__button img {
+	width: 27px;
+	height: 26px;
+}
+
+
+.banner__image {
+	width: min(632px, 100%);
+}
+
+@media screen and (max-width: 1700px) {
+	.banner {
+		gap: 35px;
+	}
+
+	.banner__right-side {
+		position: static;
+	}
+
+	.banner__left-side {
+		margin: 30px 0 0;
+	}
+}
+
+
+@media screen and (max-width: 1024px) {
+
+	.banner__left-side {
+		margin: 0;
+	}
+
+	.banner__subtitle {
+		margin-bottom: 12px;
+	}
+
+	.banner__title {
+		font-size: 47px;
+		line-height: 50px;
+		margin-bottom: 30px;
+	}
+
+	.banner__text {
+		margin-bottom: 35px;
+	}
+
+	.banner__button {
+		font-size: 16px;
+		line-height: 22px;
+		padding: 10px 18px;
+	}
+
+	.banner__image {
+		width: min(420px, 100%);
+	}
+
+	.banner__button img {
+		width: 16px;
+		height: 17px;
+	}
+
+	.banner__buttons {
+		gap: 10px;
+	}
+
+
+}
+
+@media screen and (max-width: 790px) {
+
+	.banner {
+		gap: 20px;
+	}
+
+	.banner {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.banner__right-side {
+		display: flex;
+		align-items: center;
+		order: 1;
+		width: 100%;
+	}
+
+	.banner__left-side {
+		order: 2;
+	}
+
+	.banner__image {
+		margin: auto;
+	}
+
+	.banner__title {
+		font-size: 38px;
+		line-height: 42px;
+		margin-bottom: 20px;
+	}
+
+	.banner__text {
+		margin-bottom: 20px;
+	}
+}

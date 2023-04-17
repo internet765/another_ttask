@@ -1,12 +1,31 @@
+@import url('./text.css');
+@import url('./banner.css');
+@import url('./partners.css');
+
 .main {
-	height: 100%;
-	margin-top: 100px;
-	background-color: var(--bg-main);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  margin-top: 100px;
+  background-color: var(--bg-main);
+}
+
+.main__banner {
+  padding: 49px 0 110px;
+}
+
+.main__partners {
+  padding: 89px 0;
 }
 
 @media screen and (max-width: 1024px) {
-	.main {
-		margin-top: 80px;
-		background-color: var(--bg-main);
-	}
+  .main {
+    margin-top: 80px;
+  }
+
+  .main__banner {
+    padding: 35px 0;
+  }
 }

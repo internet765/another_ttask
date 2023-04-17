@@ -34,12 +34,12 @@
     right: 0;
     top: 0;
     height: 100px;
+    z-index: 1000;
 }
 
 .header__wrapper {
     display: flex;
     align-items: center;
-    padding: 24px 0;
 }
 
 .header__logo {
@@ -121,7 +121,7 @@
     right: 0;
     bottom: 0;
     border: 2px solid var(--text_white);
-    animation: selection ease 1s;
+    animation: selection ease .5s;
 }
 
 @media (max-width: 1024px) {
