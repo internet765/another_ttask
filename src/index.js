@@ -1,4 +1,5 @@
 import './index.css';
+import WOW from 'wow.js';
 
 // бургер меню
 
@@ -13,3 +14,7 @@ document.querySelector('.burger').addEventListener('click', () => {
   document.querySelector('.header__menu').classList.toggle('active');
   document.querySelector('.burger').classList.toggle('active');
 });
+
+//wow init
+const wow = new WOW();
+wow.init();
