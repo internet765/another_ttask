@@ -114,9 +114,8 @@
 
 	.banner__buttons {
 		gap: 10px;
+		flex-wrap: wrap;
 	}
-
-
 }
 
 @media screen and (max-width: 790px) {
@@ -148,6 +147,7 @@
 		font-size: 38px;
 		line-height: 42px;
 		margin-bottom: 20px;
+		word-wrap: break-word;
 	}
 
 	.banner__text {
