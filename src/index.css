@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700;800&display=swap');
 @import url('./assets/normalize.css');
 @import url('./assets/variables.css');
+@import url('./components/header.css');
+@import url('./components/main.css');
 
 html {
     box-sizing: border-box;
@@ -17,7 +20,7 @@ html {
 }
 
 body {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: var(--font-open-sans);
     font-style: normal;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -30,20 +33,4 @@ body {
 .root {
     width: 100%;
     height: 100vh;
-}
-
-.header {
-
-}
-
-.header__navigation {
-
-}
-
-.header__logo{
-
-}
-
-.header__menu{
-
 }

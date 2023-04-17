@@ -1,0 +1,12 @@
+.container {
+    width: min(100%, 1146px);
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}

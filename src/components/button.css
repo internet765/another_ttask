@@ -1,0 +1,34 @@
+@keyframes shine {
+	0% {
+		transform: translateX(-100%);
+	}
+	100% {
+		transform: translateX(100%);
+	}
+}
+
+.button {
+	position: relative;
+	padding: 15px 30px;
+	background-color: var(--button-bg_primary);
+	border-radius: var(--button-border-radius_primary);
+	color: var(--button-text_primary);
+	cursor: pointer;
+	overflow: hidden;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.button:hover {
+	background-color: var(--button-hover_primary);
+}
+
+.button:active:after {
+	content: '';
+	top: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	animation: shine ease .5s;
+	background: var(--button-active_primary)
+}

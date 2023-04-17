@@ -1,45 +1,29 @@
 :root {
     /* Текст */
-    --font: 'Poppins', Arial, Helvetica, sans-serif;
+    /* --font-poppins: 'Poppins', Arial, Helvetica, sans-serif; */
+    --font-open-sans: 'Open Sans', Arial, Helvetica, sans-serif;
+
+    /* Цвет бэкграунда страницы */
+    --bg-header: #040C1A;
+    --bg-main: #020A18;
+    --bg-footer: #070F1D;
 
     /* Цвет текста*/
     --text_black: #000000;
     --text_white: #FFFFFF;
-    --text_primery: #01070D;
-    --text_secondary: #1D92FF;
-
-    /* Цвет бэкграунда страницы */
-    --bg-header: #002547;
-    --bg-main: #F5F5F5;
-    --bg-footer: #070C11;
+    --text_primary: #B3B5BA;
+    --text_secondary: #939FA5;
+    --text_thirdly: #3A68B8;
 
     /* Цвет элементов */
 
     /* Кнопки */
-    --button-bg_primary: #FFFFFF;
-    --button-bg_secondary: #1D92FF;
-  
-    --button-border_primary: #FFFFFF1A;
-    --button-border_secondary: #1D92FF1A;
+    --button-bg_primary: #3A68B8;
+    --button-text_primary: #FFFFFF;
+    --button-hover_primary: rgba(58, 104, 184, .8);
+    --button-active_primary: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 50%, rgba(128, 186, 232, 0) 99%, rgba(125, 185, 232, 0) 100%);
+    --button-border-radius_primary: 5px;
 
-    --button-border-radius_primary: 3px;
-    --button-border-radius_secondary: 4px;
-
-    /* Сссылка */
-    --link_primery: #1D92FFA6;
-
-    /* Аккордион */
-    --accordion-bg: #FFFFFF;
-    --accordion-border: #01070D1A;
-    --accordion-border-radius: 5px;
-
-    /* Карточки */
-    --card-bg_primary: linear-gradient(180deg, #1D92FF 0%, #002648 0.01%, #002547 100%);
-    --card-bg_secondary: #FFFFFF;
-
-    --card-shadow: 0px 20px 100px rgba(0, 0, 0, 0.05);
-    --card-border: #1D92FF;
-
-    /* Рассылка */
-    --mailing-bg: #002648;
+    /* Бургер */
+    --burger-bg_primary: #FFFFFF;
 }

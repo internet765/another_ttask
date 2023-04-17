@@ -1,0 +1,12 @@
+.main {
+	height: 100%;
+	margin-top: 100px;
+	background-color: var(--bg-main);
+}
+
+@media screen and (max-width: 1024px) {
+	.main {
+		margin-top: 80px;
+		background-color: var(--bg-main);
+	}
+}

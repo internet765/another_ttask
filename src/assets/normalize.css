@@ -75,6 +75,7 @@
   
   a {
     background-color: transparent;
+    text-decoration: none;
   }
   
   /**
@@ -167,6 +168,10 @@
     line-height: 1.15; /* 1 */
     margin: 0; /* 2 */
   }
+
+  li {
+    list-style-type: none;
+  }
   
   /**
    * Show the overflow in IE.
@@ -176,6 +181,8 @@
   button,
   input { /* 1 */
     overflow: visible;
+    border: none;
+    white-space: nowrap;
   }
   
   /**
