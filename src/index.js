@@ -1,5 +1,8 @@
+import 'swiper/swiper-bundle.min.css';
+
 import './index.css';
 import WOW from 'wow.js';
+import Swiper, { Pagination } from 'swiper';
 
 // бургер меню
 const menu = document.querySelector('.header__menu');
@@ -18,5 +21,12 @@ burger.addEventListener('click', () => {
 });
 
 //wow init
-const wow = new WOW();
-wow.init();
+new WOW().init();
+
+//swiper init
+const swiper = new Swiper('.swiper', {
+  modules: [Pagination],
+    speed: 400,
+    spaceBetween: 30,
+    loop: true,
+});

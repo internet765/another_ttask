@@ -2,6 +2,7 @@
 	0% {
 		transform: translateX(-100%);
 	}
+
 	100% {
 		transform: translateX(100%);
 	}
@@ -32,4 +33,12 @@
 	animation: shine ease .3s;
 	background: var(--button-active_primary);
 	transform: translateX(100%);
+}
+
+@media screen and (max-width: 1024px) {
+	.button {
+		font-size: 16px;
+		line-height: 22px;
+		padding: 10px 18px;
+	}
 }

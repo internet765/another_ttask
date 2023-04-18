@@ -1,5 +1,5 @@
 .container {
-    width: min(100%, 1146px);
+    width: min(1146px, 100%);
     margin-left: 24px;
     margin-right: 24px;
 }

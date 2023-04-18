@@ -1,13 +1,13 @@
 @import url('./text.css');
+@import url('./title.css');
 @import url('./banner.css');
 @import url('./partners.css');
+@import url('./data-info.css');
+@import url('./swiper.css');
 
 .main {
   display: flex;
   justify-content: center;
-  /* flex-direction: column;
-  align-items: center; */
-  height: 100%;
   margin-top: 100px;
   background-color: var(--bg-main);
 }
@@ -20,12 +20,44 @@
   padding: 89px 0;
 }
 
+.main__data-info {
+  padding: 229px 0;
+}
+
+@media screen and (max-width: 1700px) {
+  .main__banner {
+    padding: 49px 0 0;
+  }
+
+  .main__data-info {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .main__banner {
+    padding: 55px 0 0;
+  }
+
+  .main__partners {
+    padding: 105px 0;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .main {
     margin-top: 80px;
   }
 
   .main__banner {
-    padding: 35px 0;
+    padding: 45px 0 0;
+  }
+
+  @media screen and (max-width: 520px) {
+
+    .main__partners {
+      padding: 55px 0 40px;
+    }
+
   }
 }

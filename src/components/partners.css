@@ -1,7 +1,54 @@
-.partners {}
+.partners {
+	display: flex;
+}
 
 .partners__wrapper {
-	display: flex;
-	flex-wrap: wrap;
+	display: grid;
+	grid-template-columns: repeat(4, 4fr);
+	justify-items: center;
 	gap: 71px;
+}
+
+@media screen and (max-width: 1240px) {
+	.partners {
+		justify-content: center;
+	}
+	.partners__wrapper {
+		grid-template-columns: repeat(2, 4fr);
+		justify-items: flex-start;
+		gap: 45px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.partners__wrapper {
+		width: min(604px, 100%);
+		gap: 30px;
+	}
+
+	.partners ul li a img {
+		width: 100%;
+		max-width: 230px;
+	}
+}
+
+@media screen and (max-width: 790px) {
+
+	.partners {
+		justify-content: center;
+	}
+
+	.partners__wrapper {
+		justify-items: flex-start;
+		gap: 20px;
+	}
+
+}
+
+@media screen and (max-width: 540px) {
+
+	.partners__wrapper {
+		grid-template-columns: repeat(1, 4fr);
+	}
+
 }

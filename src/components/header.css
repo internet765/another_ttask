@@ -64,7 +64,7 @@
     position: relative;
     font-weight: 600;
     font-size: 16px;
-    line-height: 23px;
+    line-height: 22px;
     padding: 24px 20px;
     cursor: pointer;
 }
@@ -135,10 +135,6 @@
 
     .header__menu {
         display: none;
-    }
-
-    .header__button {
-        padding: 10px 18px;
     }
 
     .header__logo {
