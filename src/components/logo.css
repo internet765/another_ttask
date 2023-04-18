@@ -1,19 +1,19 @@
 .logo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
 }
 
 .logo__image {
-    width: 44px;
-    height: 57px;
+	width: 44px;
+	height: 57px;
 }
 
 .logo__name {
-    font-weight: 600;
-    font-size: 22.5455px;
-    line-height: 31px;
-    color: #3A68B8;
+	font-weight: 600;
+	font-size: 22.5455px;
+	line-height: 31px;
+	color: #3A68B8;
 }

@@ -1,26 +1,32 @@
 .swiper {
-    background-color: var(--bg-main);
-    padding: 170px 0;
-    overflow: hidden;
+	background-color: var(--bg-main);
+	padding: 120px 0 50px;
+	overflow: hidden;
 }
 
 .swiper-slide {
-    gap: 30px;
-    padding: 30px;
-    background-color: #18202C;
-    border-radius: 10px;
-    max-width: 362px;
-    width: 302px !important;
-    text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px;
+	padding: 30px;
+	background-color: #18202C;
+	border-radius: 10px;
+	text-align: center;
 }
 
 .swiper-slide .title {
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 31px;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 31px;
 }
 
-
 .swiper-slide img{
-    width: 98px;
+	width: 98px;
+}
+
+.swiper-pagination span {
+	width: 15px;
+	height: 15px;
+	background-color: #2C3647;
 }

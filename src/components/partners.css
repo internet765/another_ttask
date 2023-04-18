@@ -10,7 +10,7 @@
 }
 
 
-@media screen and (max-width: 1240px) {
+@media screen and (width <= 1240px) {
 	.partners {
 		justify-content: center;
 	}
@@ -26,14 +26,13 @@
 	}
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (width <= 1024px) {
 	.partners__wrapper {
 		gap: 30px;
 	}
 }
 
-@media screen and (max-width: 790px) {
-
+@media screen and (width <= 790px) {
 	.partners {
 		justify-content: center;
 	}
@@ -46,8 +45,7 @@
 
 }
 
-@media screen and (max-width: 380px) {
-
+@media screen and (width <= 380px) {
 	.partners__wrapper {
 		justify-items: flex-start;
 		grid-template-columns: repeat(1, 4fr);

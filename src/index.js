@@ -2,7 +2,9 @@ import 'swiper/swiper-bundle.min.css';
 
 import './index.css';
 import WOW from 'wow.js';
-import Swiper, { Pagination } from 'swiper';
+import Swiper, {
+  Pagination
+} from 'swiper';
 
 // бургер меню
 const menu = document.querySelector('.header__menu');
@@ -26,7 +28,28 @@ new WOW().init();
 //swiper init
 const swiper = new Swiper('.swiper', {
   modules: [Pagination],
-    speed: 400,
-    spaceBetween: 30,
-    loop: true,
+  spaceBetween: 30,
+  // slidesPerView: 5,
+  loop: true,
+  centeredSlides: true,
+  slidesPerView: "auto",
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: false,
+  },
+  // breakpoints: {
+  //   540: {
+  //     slidesPerView: 2,
+  //     spaceBetween: 20
+  //   },
+  //   780: {
+  //     slidesPerView: 3,
+  //     spaceBetween: 25
+  //   },
+  //   1024: {
+  //     slidesPerView: 4,
+  //     spaceBetween: 30
+  //   }
+  // }
 });

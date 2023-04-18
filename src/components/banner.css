@@ -64,7 +64,7 @@
 	width: min(632px, 100%);
 }
 
-@media screen and (max-width: 1700px) {
+@media screen and (width <= 1700px) {
 	.banner {
 		gap: 35px;
 	}
@@ -79,8 +79,7 @@
 }
 
 
-@media screen and (max-width: 1024px) {
-
+@media screen and (width <= 1024px) {
 	.banner__left-side {
 		margin: 0;
 	}
@@ -119,8 +118,7 @@
 	}
 }
 
-@media screen and (max-width: 790px) {
-
+@media screen and (width <= 790px) {
 	.banner {
 		flex-direction: column;
 		align-items: center;

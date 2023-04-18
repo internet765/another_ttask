@@ -24,7 +24,7 @@
 	background-color: var(--button-hover_primary);
 }
 
-.button:active:after {
+.button:active::after {
 	content: '';
 	top: 0;
 	width: 100%;
@@ -35,7 +35,7 @@
 	transform: translateX(100%);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (width <= 1024px) {
 	.button {
 		font-size: 16px;
 		line-height: 22px;

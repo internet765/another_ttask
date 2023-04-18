@@ -1,29 +1,32 @@
+/* stylelint-disable custom-property-pattern */
+
 :root {
-    /* Текст */
-    /* --font-poppins: 'Poppins', Arial, Helvetica, sans-serif; */
-    --font-open-sans: 'Open Sans', Arial, Helvetica, sans-serif;
+	/* Текст */
 
-    /* Цвет бэкграунда страницы */
-    --bg-header: #040C1A;
-    --bg-main: #020A18;
-    --bg-footer: #070F1D;
+	/* --font-poppins: 'Poppins', Arial, Helvetica, sans-serif; */
+	--font-open-sans: 'Open Sans', arial, helvetica, sans-serif;
 
-    /* Цвет текста*/
-    --text_black: #000000;
-    --text_white: #FFFFFF;
-    --text_primary: #B3B5BA;
-    --text_secondary: #939FA5;
-    --text_thirdly: #3A68B8;
+	/* Цвет бэкграунда страницы */
+	--bg-header: #040C1A;
+	--bg-main: #020A18;
+	--bg-footer: #070F1D;
 
-    /* Цвет элементов */
+	/* Цвет текста */
+	--text_black: #000;
+	--text_white: #FFF;
+	--text_primary: #B3B5BA;
+	--text_secondary: #939FA5;
+	--text_thirdly: #3A68B8;
 
-    /* Кнопки */
-    --button-bg_primary: #3A68B8;
-    --button-text_primary: #FFFFFF;
-    --button-hover_primary: rgba(58, 104, 184, .8);
-    --button-active_primary: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 50%, rgba(128, 186, 232, 0) 99%, rgba(125, 185, 232, 0) 100%);
-    --button-border-radius_primary: 5px;
+	/* Цвет элементов */
 
-    /* Бургер */
-    --burger-bg_primary: #FFFFFF;
+	/* Кнопки */
+	--button-bg_primary: #3A68B8;
+	--button-text_primary: #FFF;
+	--button-hover_primary: rgb(58 104 184 / 80%);
+	--button-active_primary: linear-gradient(to right, rgb(255 255 255 / 0%) 0%, rgb(255 255 255 / 80%) 50%, rgb(128 186 232 / 0%) 99%, rgb(125 185 232 / 0%) 100%);
+	--button-border-radius_primary: 5px;
+
+	/* Бургер */
+	--burger-bg_primary: #FFF;
 }

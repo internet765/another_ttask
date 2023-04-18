@@ -6,58 +6,57 @@
 @import url('./swiper.css');
 
 .main {
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
-  background-color: var(--bg-main);
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+	background-color: var(--bg-main);
 }
 
 .main__banner {
-  padding: 49px 0 110px;
+	padding: 49px 0 110px;
 }
 
 .main__partners {
-  padding: 89px 0;
+	padding: 89px 0;
 }
 
 .main__data-info {
-  padding: 229px 0;
+	padding: 229px 0;
 }
 
-@media screen and (max-width: 1700px) {
-  .main__banner {
-    padding: 49px 0 0;
-  }
+@media screen and (width <= 1700px) {
+	.main__banner {
+		padding: 49px 0 0;
+	}
 
-  .main__data-info {
-    padding: 0;
-  }
+	.main__data-info {
+		padding: 0;
+	}
 }
 
-@media screen and (max-width: 1240px) {
-  .main__banner {
-    padding: 55px 0 0;
-  }
+@media screen and (width <= 1240px) {
+	.main__banner {
+		padding: 55px 0 0;
+	}
 
-  .main__partners {
-    padding: 105px 0;
-  }
+	.main__partners {
+		padding: 105px 0;
+	}
 }
 
-@media screen and (max-width: 1024px) {
-  .main {
-    margin-top: 80px;
-  }
+@media screen and (width <= 1024px) {
+	.main {
+		margin-top: 80px;
+	}
 
-  .main__banner {
-    padding: 45px 0 0;
-  }
+	.main__banner {
+		padding: 45px 0 0;
+	}
 
-  @media screen and (max-width: 520px) {
+	@media screen and (width <= 520px) {
+		.main__partners {
+			padding: 55px 0 40px;
+		}
 
-    .main__partners {
-      padding: 55px 0 40px;
-    }
-
-  }
+	}
 }

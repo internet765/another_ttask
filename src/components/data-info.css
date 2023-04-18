@@ -1,80 +1,79 @@
 .data-info {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: end;
+	position: relative;
 }
 
 .data-info__left-side {
-    width: min(725px, 100%);
-    position: absolute;
-    left: -131px;
-    top: 136px;
+	width: min(725px, 100%);
+	position: absolute;
+	left: -131px;
+	top: 136px;
 }
 
 .data-info__right-side {
-    align-self: flex-end;
-    width: min(484px, 100%);
-    margin-top: 85px;
+	align-self: flex-end;
+	width: min(484px, 100%);
+	margin-top: 85px;
 }
 
 .data-info__title {
-    margin-bottom: 33px;
+	margin-bottom: 33px;
 }
 
 .data-info__text {
-    width: min(460px, 100%);
-    margin-bottom: 47px;
+	width: min(460px, 100%);
+	margin-bottom: 47px;
 }
 
 .data-info__image {
-    width: min(725px, 100%);
+	width: min(725px, 100%);
 }
 
-@media screen and (max-width: 1700px) {
-    .data-info {
-        gap: 35px;
-    }
+@media screen and (width <= 1700px) {
+	.data-info {
+		gap: 35px;
+	}
 
-    .data-info__left-side {
-        position: static;
-    }
+	.data-info__left-side {
+		position: static;
+	}
 
-    .data-info__right-side {
-        align-self: center;
-        margin-top: 0;
-    }
+	.data-info__right-side {
+		align-self: center;
+		margin-top: 0;
+	}
 }
 
-@media screen and (max-width: 1024px) {
-    .data-info {
-        gap: 35px;
-      }
+@media screen and (width <= 1024px) {
+	.data-info {
+		gap: 35px;
+	}
 
-    .data-info__left-side {
-        width: min(490px, 100%);
-    }
+	.data-info__left-side {
+		width: min(490px, 100%);
+	}
 
-    .data-info__right-side {
-        width: min(604px, 100%);
-    }
+	.data-info__right-side {
+		width: min(604px, 100%);
+	}
 
-    .data-info__title {
-        margin-bottom: 18px;
-    }
+	.data-info__title {
+		margin-bottom: 18px;
+	}
 
-    .data-info__text {
-        margin-bottom: 30px;
-    }
+	.data-info__text {
+		margin-bottom: 30px;
+	}
 
-    .data-info__image {
-        width: 100%;
-        margin: auto;
-    }
+	.data-info__image {
+		width: 100%;
+		margin: auto;
+	}
 }
 
-@media screen and (max-width: 790px) {
-
+@media screen and (width <= 790px) {
 	.data-info {
 		flex-direction: column;
 		align-items: center;

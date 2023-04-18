@@ -10,7 +10,8 @@
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build",
     "lint": "eslint -c .eslintrc.json --ext .js src/",
-    "lint:fix": "npm run lint -- --fix"
+    "lint:fix": "npm run lint -- --fix",
+    "stylelint": "stylelint \"src/*.css\"  --fix"
   },
   "repository": {
     "type": "git",
@@ -26,7 +27,9 @@
     "eslint": "^8.38.0",
     "eslint-plugin-import": "^2.27.5",
     "parcel-bundler": "^1.12.5",
-    "prettier": "^2.8.7"
+    "prettier": "^2.8.7",
+    "stylelint": "^15.5.0",
+    "stylelint-config-standard": "^33.0.0"
   },
   "dependencies": {
     "gh-pages": "^5.0.0",
