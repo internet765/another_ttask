@@ -5,7 +5,7 @@
 
 .glider {
 	scrollbar-width: none;
-	margin-bottom: 50px;
+	margin-bottom: 47px;
 }
 
 .slide {
@@ -17,7 +17,7 @@
 	background-color: #18202C;
 	border-radius: 10px;
 	text-align: center;
-	margin: 0 15px 0 15px;
+	margin: 0 15px;
 	max-width: 362px;
 }
 
@@ -48,6 +48,6 @@
 
 @media screen and (width <=790px) {
 	.slider {
-		padding: 75px 0;
+		padding: 110px 0 75px;
 	}
 }

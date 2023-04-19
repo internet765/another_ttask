@@ -20,7 +20,7 @@
 	line-height: 29px;
 	text-transform: uppercase;
 	color: var(--text_thirdly);
-	margin-bottom: 11px;
+	margin-bottom: 14px;
 }
 
 .banner__title {
@@ -29,7 +29,7 @@
 	line-height: 71px;
 	color: var(--text_white);
 	margin: 0;
-	margin-bottom: 45px;
+	margin-bottom: 42px;
 	width: 100%;
 	max-width: 604px;
 }
@@ -37,7 +37,7 @@
 .banner__text {
 	font-size: 18px;
 	line-height: 29px;
-	margin-bottom: 45px;
+	margin-bottom: 46px;
 	width: min(100%, 558px);
 }
 
@@ -58,6 +58,9 @@
 .banner__button svg{
 	width: 27px;
 	height: 26px;
+	position: relative;
+	top: -3px;
+	left: 3px;
 } 
 
 .banner__button svg path{

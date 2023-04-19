@@ -10,17 +10,17 @@
 	width: min(725px, 100%);
 	position: absolute;
 	left: -131px;
-	top: 136px;
+	top: 138px;
 }
 
 .data-info__right-side {
 	align-self: flex-end;
 	width: min(484px, 100%);
-	margin-top: 85px;
+	margin-top: 92px;
 }
 
 .data-info__title {
-	margin-bottom: 33px;
+	margin-bottom: 29px;
 }
 
 .data-info__text {
