@@ -3,6 +3,7 @@
 	flex-direction: row;
 	justify-content: end;
 	position: relative;
+	padding: 229px 0;
 }
 
 .data-info__left-side {
@@ -34,6 +35,7 @@
 @media screen and (width <= 1700px) {
 	.data-info {
 		gap: 35px;
+		padding: 0;
 	}
 
 	.data-info__left-side {

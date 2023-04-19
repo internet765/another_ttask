@@ -1,5 +1,6 @@
 .partners {
 	display: flex;
+	padding: 89px 0;
 }
 
 .partners__wrapper {
@@ -13,6 +14,7 @@
 @media screen and (width <= 1240px) {
 	.partners {
 		justify-content: center;
+		padding: 105px 0;
 	}
 
 	.partners__wrapper {
@@ -42,7 +44,13 @@
 		justify-items: center;
 		gap: 20px;
 	}
+}
 
+
+@media screen and (width <=520px) {
+	.partners {
+		padding: 75px 0 65px;
+	}
 }
 
 @media screen and (width <= 380px) {

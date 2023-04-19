@@ -1,15 +1,12 @@
-/* stylelint-disable custom-property-pattern */
-
 :root {
 	/* Текст */
-
-	/* --font-poppins: 'Poppins', Arial, Helvetica, sans-serif; */
+	--font-circular: 'Circular Std', Arial, Helvetica, sans-serif;
 	--font-open-sans: 'Open Sans', arial, helvetica, sans-serif;
 
 	/* Цвет бэкграунда страницы */
 	--bg-header: #040C1A;
 	--bg-main: #020A18;
-	--bg-footer: #070F1D;
+	--bg-footer: #060E1C;
 
 	/* Цвет текста */
 	--text_black: #000;

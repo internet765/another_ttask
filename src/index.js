@@ -1,10 +1,8 @@
-import 'swiper/swiper-bundle.min.css';
-
+import 'glider-js/glider.min.css';
+import 'animate.css';
 import './index.css';
-import WOW from 'wow.js';
-import Swiper, {
-  Pagination
-} from 'swiper';
+import { WOW } from 'wowjs';
+import Glider from 'glider-js';
 
 // бургер меню
 const menu = document.querySelector('.header__menu');
@@ -25,31 +23,21 @@ burger.addEventListener('click', () => {
 //wow init
 new WOW().init();
 
-//swiper init
-const swiper = new Swiper('.swiper', {
-  modules: [Pagination],
-  spaceBetween: 30,
-  // slidesPerView: 5,
-  loop: true,
-  centeredSlides: true,
-  slidesPerView: "auto",
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-    dynamicBullets: false,
-  },
-  // breakpoints: {
-  //   540: {
-  //     slidesPerView: 2,
-  //     spaceBetween: 20
-  //   },
-  //   780: {
-  //     slidesPerView: 3,
-  //     spaceBetween: 25
-  //   },
-  //   1024: {
-  //     slidesPerView: 4,
-  //     spaceBetween: 30
-  //   }
-  // }
+//glider init
+new Glider(document.querySelector('.glider'), {
+  slidesToShow: 'auto',
+  slidesToScroll: 'auto',
+  resizeLock: true,
+  itemWidth: 362,
+  draggable: true,
+  scrollLock: true,
+  dots: '',
+  responsive: [
+    {
+      breakpoint: 540,
+      settings: {
+        dots: '.dots',
+      },
+    },
+  ],
 });

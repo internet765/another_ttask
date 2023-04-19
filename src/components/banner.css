@@ -1,6 +1,7 @@
 .banner {
 	display: flex;
 	position: relative;
+	padding: 49px 0 110px;
 }
 
 .banner__left-side {
@@ -19,7 +20,7 @@
 	line-height: 29px;
 	text-transform: uppercase;
 	color: var(--text_thirdly);
-	margin-bottom: 10px;
+	margin-bottom: 11px;
 }
 
 .banner__title {
@@ -54,19 +55,23 @@
 	gap: 10px;
 }
 
-.banner__button img {
+.banner__button svg{
 	width: 27px;
 	height: 26px;
-}
+} 
 
+.banner__button svg path{
+	fill: var(--text_white);
+}
 
 .banner__image {
 	width: min(632px, 100%);
 }
 
-@media screen and (width <= 1700px) {
+@media screen and (width <=1700px) {
 	.banner {
 		gap: 35px;
+		padding: 49px 0 0;
 	}
 
 	.banner__right-side {
@@ -78,8 +83,18 @@
 	}
 }
 
+@media screen and (width <=1240px) {
+	.banner {
+		padding: 55px 0 0;
+	}
+}
 
-@media screen and (width <= 1024px) {
+
+@media screen and (width <=1024px) {
+	.banner {
+		padding: 55px 0 0;
+	}
+
 	.banner__left-side {
 		margin: 0;
 	}
@@ -101,16 +116,17 @@
 	.banner__button {
 		font-size: 16px;
 		line-height: 22px;
+		gap: 5px;
 	}
 
 	.banner__image {
 		width: min(420px, 100%);
 	}
 
-	.banner__button img {
+	.banner__button svg{
 		width: 16px;
 		height: 17px;
-	}
+	} 
 
 	.banner__buttons {
 		gap: 12px;
@@ -118,11 +134,12 @@
 	}
 }
 
-@media screen and (width <= 790px) {
+@media screen and (width <=790px) {
 	.banner {
 		flex-direction: column;
 		align-items: center;
 		gap: 20px;
+		padding: 30px 0;
 	}
 
 	.banner__right-side {
