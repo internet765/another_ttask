@@ -31,16 +31,16 @@ new Glide('.glide', {
   perTouch: 3,
   breakpoints: {
     1900: {
-      perView: 4
+      perView: 4,
     },
     1510: {
-      perView: 3
+      perView: 3,
     },
     1170: {
-      perView: 2
+      perView: 2,
     },
     710: {
-      perView: 1
-    }
-  }
+      perView: 1,
+    },
+  },
 }).mount();

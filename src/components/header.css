@@ -1,3 +1,4 @@
+/* stylelint-disable declaration-block-no-redundant-longhand-properties */
 /* stylelint-disable no-duplicate-selectors */
 @import url('./container.css');
 @import url('./burger.css');
