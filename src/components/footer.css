@@ -8,6 +8,7 @@
 
 .footer svg path {
 	stroke: var(--text_white);
+	fill: var(--bg-footer);
 }
 
 .footer__wrapper {

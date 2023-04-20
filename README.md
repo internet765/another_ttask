@@ -4,7 +4,7 @@
 
 Инструкция для запуска отладки:
 
-    Клонируем проект командой - git clone git@github.com:ngagara/another_ttask.git
+    Клонируем проект командой - git clone https://github.com/ngagara/another_ttask.git
     Устанавливаем зависимости - npm install
     Запустить в режиме разработки - npm run start
 
