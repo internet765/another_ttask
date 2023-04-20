@@ -21,7 +21,8 @@
 	--button-bg_primary: #3A68B8;
 	--button-text_primary: #FFF;
 	--button-hover_primary: rgb(58 104 184 / 80%);
-	--button-active_primary: linear-gradient(to right, rgb(255 255 255 / 0%) 0%, rgb(255 255 255 / 80%) 50%, rgb(128 186 232 / 0%) 99%, rgb(125 185 232 / 0%) 100%);
+	--button-active_primary: rgb(58 104 184 / 90%);
+	--button-focus_primary: linear-gradient(to right, rgb(255 255 255 / 0%) 0%, rgb(255 255 255 / 80%) 50%, rgb(128 186 232 / 0%) 99%, rgb(125 185 232 / 0%) 100%);
 	--button-border-radius_primary: 5px;
 
 	/* Бургер */
