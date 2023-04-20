@@ -14,4 +14,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("animate.css"),require("@glidejs/glide/dist/css/glide.core.min.css"),require("./index.css");var e=require("wowjs"),i=r(require("@glidejs/glide"));function r(e){return e&&e.__esModule?e:{default:e}}var t=document.querySelector(".header__menu"),s=document.querySelector(".burger");window.addEventListener("resize",function(){window.innerWidth>=1024&&(t.classList.remove("active"),s.classList.remove("active"))}),s.addEventListener("click",function(){t.classList.toggle("active"),s.classList.toggle("active")}),(new e.WOW).init(),new i.default(".glide",{type:"carousel",perView:5,gap:30,perTouch:3,breakpoints:{1900:{perView:4},1510:{perView:3},1170:{perView:2},710:{perView:1}}}).mount();
 },{"animate.css":"TOx8","@glidejs/glide/dist/css/glide.core.min.css":"TOx8","./index.css":"vKFU","wowjs":"APbb","@glidejs/glide":"fGvC"}]},{},["Focm"], null)
-//# sourceMappingURL=src.60ba761e.js.map
+//# sourceMappingURL=src.d7a9156e.js.map
