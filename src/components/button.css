@@ -24,7 +24,7 @@
 	background-color: var(--button-hover_primary);
 }
 
-.button:active::after {
+.button:focus::after {
 	content: '';
 	top: 0;
 	width: 100%;
@@ -32,7 +32,7 @@
 	position: absolute;
 	animation: shine ease .3s;
 	background: var(--button-active_primary);
-	transform: translateX(-100%);
+	transform: translateX(100%);
 }
 
 @media screen and (width <= 1024px) {
