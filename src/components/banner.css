@@ -129,6 +129,7 @@
 	.banner__button svg{
 		width: 16px;
 		height: 17px;
+		position: static;
 	} 
 
 	.banner__buttons {
