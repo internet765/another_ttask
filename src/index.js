@@ -21,7 +21,7 @@ burger.addEventListener('click', () => {
 });
 
 //wow init
-new WOW().init();
+new WOW().init({offset: 100,});
 
 //glide init
 new Glide('.glide', {
